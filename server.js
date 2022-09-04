@@ -48,11 +48,7 @@ app.get('/test', async (request, response) => {
 
 })
 
-app.get('/test2', async (request, response) => {
 
-  response.render('test2.ejs',)
-
-})
 
 app.listen(process.env.PORT, () => {
   console.log('Server is running, you better catch it!', process.env.PORT)
